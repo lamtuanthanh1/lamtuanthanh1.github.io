@@ -1,0 +1,141 @@
+/* PC*/
+@media (min-width: 64em){
+
+}
+
+/* table - Mobile*/
+@media (max-width: 1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+
+    #from-control{
+        padding: 15px;
+    }
+
+    .social-list{
+        font-size: 48px;
+    }
+
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+
+    #footer .copyright a{
+        display: inline-block;
+        padding: 12px 0;
+    }
+
+    #contact-section .contact-icon{
+        line-height: 2;
+    }
+    
+}
+
+/* table */
+@media (min-width: 740px) and (max-width:1023px){
+    
+}
+
+/* Mobile*/
+
+@media (max-width: 739px) {
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+    
+    #nav{
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color:#333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    
+    
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #slider .title-heading{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    #slider .incule-text-slider{
+        bottom: 0px;
+    }
+
+    #slider .sub-heading{
+        font-size: 14px;
+        display: inline;
+    }
+
+    #content .member-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+
+    .contact-form{
+        margin-top: 32px;
+    }
+   
+    .modal-close{
+        top: -2px;
+        padding: 13px;
+        font-size: 13px;
+    }
+
+    .modal-header{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .button-go{
+        bottom: 5px;
+    }
+
+    .place-img{
+        height: 300px;
+    }
+    
+}
