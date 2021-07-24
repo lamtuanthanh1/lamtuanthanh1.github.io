@@ -112,7 +112,11 @@
     }
 
     #content .member-img{
-        width: 60%;
+        width: 50%;
+    }
+
+    #content .member-img:hover{
+        width: 70%;
     }
 
     .contact-form{
